@@ -17,7 +17,7 @@ jobs:
           python-version: "3.9"
           extra_args: --all-files --hook-stage manual
       - name: Install package
-         run: python -m pip install -e .[precom]
+        run: python -m pip install -e .[precom]
       - uses: pre-commit/action@v3.0.0
 
   tests:
