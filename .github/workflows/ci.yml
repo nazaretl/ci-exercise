@@ -28,8 +28,8 @@ jobs:
         python-version:
           - "3.8"
           - "3.12"
-  name: Check Python ${{ matrix.python-version }}
-  steps:
+   name: Check Python ${{ matrix.python-version }}
+   steps:
     - uses: actions/checkout@v3
 
     - name: Setup Python ${{ matrix.python-version }}
